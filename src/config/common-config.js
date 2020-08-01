@@ -3,7 +3,7 @@
  */
 window.$config = {
     center: [117.3745188667, 23.8839],
-    zoom: 6,
+    zoom: 12,
     minZoom: 1,
     maxZoom: 19,
     baseLayerOptions: {
