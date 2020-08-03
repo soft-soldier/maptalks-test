@@ -14,6 +14,8 @@ const MAP_OD_LINE_ANIMATED_LAYER = "map_od_line_animated_layer";
 const MAP_E3_LAYER = "map_e3_layer";
 const MAP_WINDY_LAYER = "map_windy_layer";
 const MAP_ISECTS_LAYER = "map_isects_layer";
+const MAP_RIGHT_MENU_LAYER = "map_right_menu_layer";
+const MAP_INFO_WINDOW_LAYER = "map_info_window_layer";
 
 const MapLayerConst = {
     MAP_LAYER,
@@ -28,5 +30,7 @@ const MapLayerConst = {
     MAP_OD_LINE_ANIMATED_LAYER,
     MAP_E3_LAYER,
     MAP_WINDY_LAYER,
-    MAP_ISECTS_LAYER
+    MAP_ISECTS_LAYER,
+    MAP_RIGHT_MENU_LAYER,
+    MAP_INFO_WINDOW_LAYER
 }

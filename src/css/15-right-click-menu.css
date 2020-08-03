@@ -1,0 +1,23 @@
+.custom_menu {
+    width: 90px;
+    color: #fff;
+    background-color: #051127;
+    border: 1px solid #0c2c45;
+    list-style: none;
+    padding: 0
+}
+
+.custom_menu li {
+    padding: 0 8px;
+    font-size: 12px;
+    line-height: 24px
+}
+
+.custom_menu li:hover {
+    background: #0e595e;
+    cursor: pointer
+}
+
+.custom_menu li + li {
+    border-top: 1px solid #bbb
+}

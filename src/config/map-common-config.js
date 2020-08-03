@@ -41,6 +41,10 @@ let map = new maptalks.Map(MapLayerConst.MAP_LAYER, {
 
         new maptalks.VectorLayer(MapLayerConst.MAP_OD_LINE_CURVES_MARKER_LAYER),
 
-        new maptalks.VectorLayer(MapLayerConst.MAP_ISECTS_LAYER)
+        new maptalks.VectorLayer(MapLayerConst.MAP_ISECTS_LAYER),
+
+        new maptalks.VectorLayer(MapLayerConst.MAP_RIGHT_MENU_LAYER),
+
+        new maptalks.VectorLayer(MapLayerConst.MAP_INFO_WINDOW_LAYER)
     ]
 });

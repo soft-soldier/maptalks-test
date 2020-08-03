@@ -1,0 +1,15 @@
+#map {
+    width: 90%;
+    height: 100%;
+    float: left;
+}
+
+#control {
+    width: 10%;
+    height: 100%;
+    float: right;
+}
+
+a {
+    color: #0077ff;
+}
