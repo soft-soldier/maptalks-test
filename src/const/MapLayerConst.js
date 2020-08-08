@@ -5,7 +5,9 @@ const MAP_LAYER = "map";
 const MAP_HEAT_LAYER = "map_heat_layer";
 const MAP_BASE_LAYER = "map_base_layer";
 const MAP_MARKER_LAYER = "map_marker_layer";
+const MAP_MARKER_WAVE_LAYER = "map_marker_wave_layer";
 const MAP_LINE_LAYER = "map_line_layer";
+const MAP_POLYGON_LAYER = "map_polygon_layer";
 const MAP_CLUSTER_LAYER = "map_cluster_layer";
 const MAP_ANIMATE_MARKER_LAYER = "map_animate_marker_layer";
 const MAP_OD_LINE_CURVES_MARKER_LAYER = "map_od_line_curves_marker_layer";
@@ -22,7 +24,9 @@ const MapLayerConst = {
     MAP_HEAT_LAYER,
     MAP_BASE_LAYER,
     MAP_MARKER_LAYER,
+    MAP_MARKER_WAVE_LAYER,
     MAP_LINE_LAYER,
+    MAP_POLYGON_LAYER,
     MAP_CLUSTER_LAYER,
     MAP_ANIMATE_MARKER_LAYER,
     MAP_OD_LINE_CURVES_MARKER_LAYER,

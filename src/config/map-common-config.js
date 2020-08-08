@@ -2,7 +2,7 @@
  * Created by 86185 in 2020/5/23 on 18:19
  */
 window.$config = {
-    center: [117.3745188667, 23.8839],
+    center: [-0.131049, 51.498568],
     zoom: 14,
     minZoom: 1,
     maxZoom: 19,
@@ -37,7 +37,11 @@ let map = new maptalks.Map(MapLayerConst.MAP_LAYER, {
 
         new maptalks.VectorLayer(MapLayerConst.MAP_MARKER_LAYER),
 
+        new maptalks.VectorLayer(MapLayerConst.MAP_MARKER_WAVE_LAYER),
+
         new maptalks.VectorLayer(MapLayerConst.MAP_LINE_LAYER),
+
+        new maptalks.VectorLayer(MapLayerConst.MAP_POLYGON_LAYER),
 
         new maptalks.VectorLayer(MapLayerConst.MAP_OD_LINE_CURVES_MARKER_LAYER),
 
