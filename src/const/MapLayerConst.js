@@ -19,6 +19,8 @@ const MAP_ISECTS_LAYER = "map_isects_layer";
 const MAP_RIGHT_MENU_LAYER = "map_right_menu_layer";
 const MAP_INFO_WINDOW_LAYER = "map_info_window_layer";
 const MAP_MASK_LAYER = "map_mask_layer";
+const MAP_PARTICLE_LAYER = "map_particle_layer";
+const MAP_IMAGE_LAYER = "map_image_layer";
 
 const MapLayerConst = {
     MAP_LAYER,
@@ -38,5 +40,7 @@ const MapLayerConst = {
     MAP_ISECTS_LAYER,
     MAP_RIGHT_MENU_LAYER,
     MAP_INFO_WINDOW_LAYER,
-    MAP_MASK_LAYER
+    MAP_MASK_LAYER,
+    MAP_PARTICLE_LAYER,
+    MAP_IMAGE_LAYER
 }

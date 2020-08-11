@@ -51,6 +51,10 @@ let map = new maptalks.Map(MapLayerConst.MAP_LAYER, {
 
         new maptalks.VectorLayer(MapLayerConst.MAP_INFO_WINDOW_LAYER),
 
-        new maptalks.VectorLayer(MapLayerConst.MAP_MASK_LAYER)
+        new maptalks.VectorLayer(MapLayerConst.MAP_MASK_LAYER),
+
+        new maptalks.VectorLayer(MapLayerConst.MAP_PARTICLE_LAYER),
+
+        new maptalks.VectorLayer(MapLayerConst.MAP_IMAGE_LAYER)
     ]
 });
