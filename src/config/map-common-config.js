@@ -61,6 +61,14 @@ let map = new maptalks.Map(MapLayerConst.MAP_LAYER, {
 
         new maptalks.VectorLayer(MapLayerConst.MAP_DRAGGABLE_LAYER),
 
-        new maptalks.VectorLayer(MapLayerConst.MAP_EDITABLED_LAYER)
+        new maptalks.VectorLayer(MapLayerConst.MAP_EDITABLED_LAYER),
+
+        new maptalks.VectorLayer(MapLayerConst.MAP_MARKER_ANIMATION_LAYER),
+
+        new maptalks.VectorLayer(MapLayerConst.MAP_LINE_ANIMATION_LAYER),
+
+        new maptalks.VectorLayer(MapLayerConst.MAP_POLYGON_ANIMATION_LAYER),
+
+        new maptalks.VectorLayer(MapLayerConst.MAP_CUSTOM_ANIMATION_LAYER)
     ]
 });

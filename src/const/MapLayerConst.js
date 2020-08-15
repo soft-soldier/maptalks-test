@@ -24,6 +24,10 @@ const MAP_IMAGE_LAYER = "map_image_layer";
 const MAP_TOOL_LAYER = "map_tool_layer";
 const MAP_DRAGGABLE_LAYER = "map_draggable_layer";
 const MAP_EDITABLED_LAYER = "map_editabled_layer";
+const MAP_MARKER_ANIMATION_LAYER = "map_marker_animation_layer";
+const MAP_LINE_ANIMATION_LAYER = "map_line_animation_layer";
+const MAP_POLYGON_ANIMATION_LAYER = "map_polygon_animation_layer";
+const MAP_CUSTOM_ANIMATION_LAYER = "map_custom_animation_layer";
 
 const MapLayerConst = {
     MAP_LAYER,
@@ -48,5 +52,9 @@ const MapLayerConst = {
     MAP_IMAGE_LAYER,
     MAP_TOOL_LAYER,
     MAP_DRAGGABLE_LAYER,
-    MAP_EDITABLED_LAYER
+    MAP_EDITABLED_LAYER,
+    MAP_MARKER_ANIMATION_LAYER,
+    MAP_LINE_ANIMATION_LAYER,
+    MAP_POLYGON_ANIMATION_LAYER,
+    MAP_CUSTOM_ANIMATION_LAYER
 }
