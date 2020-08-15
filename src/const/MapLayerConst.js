@@ -21,6 +21,9 @@ const MAP_INFO_WINDOW_LAYER = "map_info_window_layer";
 const MAP_MASK_LAYER = "map_mask_layer";
 const MAP_PARTICLE_LAYER = "map_particle_layer";
 const MAP_IMAGE_LAYER = "map_image_layer";
+const MAP_TOOL_LAYER = "map_tool_layer";
+const MAP_DRAGGABLE_LAYER = "map_draggable_layer";
+const MAP_EDITABLED_LAYER = "map_editabled_layer";
 
 const MapLayerConst = {
     MAP_LAYER,
@@ -42,5 +45,8 @@ const MapLayerConst = {
     MAP_INFO_WINDOW_LAYER,
     MAP_MASK_LAYER,
     MAP_PARTICLE_LAYER,
-    MAP_IMAGE_LAYER
+    MAP_IMAGE_LAYER,
+    MAP_TOOL_LAYER,
+    MAP_DRAGGABLE_LAYER,
+    MAP_EDITABLED_LAYER
 }
